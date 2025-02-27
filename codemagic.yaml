@@ -492,7 +492,7 @@ workflows:
         XCODE_WORKSPACE: "ios/cmreactnative.xcworkspace"
         XCODE_SCHEME: "cmreactnative"
         BUNDLE_ID: "io.codemagic.cmreactnative.ivanyaml"
-        APP_STORE_APP_ID: 1571903173
+        APP_STORE_APP_ID: 6742567083
       node: 16.11.1
       xcode: 16.1
       cocoapods: default
