@@ -480,6 +480,8 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     working_directory: react-native/react-native-demo-project
+    integrations:
+      app_store_connect: ivan-codemagic-demo
     environment:
       groups:
         # Add the group environment variables in Codemagic UI (either in Application/Team variables) - https://docs.codemagic.io/variables/environment-variable-groups/
