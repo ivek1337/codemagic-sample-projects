@@ -672,6 +672,7 @@ workflows:
         name: React Native iOS simulator
         max_build_duration: 120
         #instance_type: mac_pro
+        working_directory: react-native/react-native-ios-simulator-build
         environment:
             vars:
                 XCODE_WORKSPACE: "ios/ios_simulator_build.xcworkspace" # <-- Put the name of your Xcode workspace here
